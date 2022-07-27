@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Helpo - We do it for all people</title>
+    <!-- custom fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              sectionBg: "#f9f7f6",
+              title: "#4a4c70",
+            },
+            fontFamily: {
+              display: ["Quicksand"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-display">
+    <header>
+      <div
+        id="banner"
+        class="bg-[url('/images/banner.jpg')] text-white min-h-screen bg-no-repeat bg-cover flex items-center"
+      >
+        <div class="container mx-auto px-8">
+          <h1 class="text-7xl font-display">
+            <span class="font-bold block capitalize">Our helping</span>around
+            the world
+          </h1>
+          <p class="py-5 font-medium">
+            Gray eel-catfish longnose whiptail catfish smalleye squaretail queen
+            danio unicorn fish <br />
+            shortnose greeneye fusilier fish silver carp nibbler sharksucker
+            tench lookdown catfish
+          </p>
+          <button
+            class="uppercase px-14 py-4 border-2 rounded-full font-bold border-yellow-400 hover:bg-yellow-400 hover:text-slate-800 transition-all duration-200 mt-2 hover:translate-y-2"
+          >
+            Discover
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- about us section -->
+      <section id="about-us" class="py-32 bg-sectionBg">
+        <div class="container mx-auto px-8 flex gap-4">
+          <div class="more-about flex-none w-2/6">
+            <h6 class="sec-title capitalize font-semibold text-slate-400">
+              about us
+            </h6>
+            <h1 class="text-5xl font-display text-title my-3">
+              <span class="font-bold">Help is Our </span>Main Goal Ever
+            </h1>
+            <button
+              class="uppercase px-10 py-4 border-2 rounded-full font-semibold border-yellow-400 hover:bg-yellow-400 hover:text-slate-800 transition-all duration-200 mt-8 hover:translate-y-2 text-xs text-slate-800"
+            >
+              more about
+            </button>
+          </div>
+          <div class="about-us-details flex-1">
+            <p class="font-bold">
+              Thresher shark rudd African lungfish silverside, Red salmon
+              rockfish grunion, garpike zebra danio king-of-the-salmon banjo
+              catfish."
+            </p>
+            <p class="text-slate-500 my-4">
+              Sea chub demoiselle whalefish zebra lionfish mud cat pelican eel.
+              Minnow snoek icefish velvet-belly shark, California halibut round
+              stingray northern sea robin. Southern grayling trout-perch
+            </p>
+            <p class="text-slate-500">
+              Sharksucker sea toad candiru rocket danio tilefish stingray
+              deepwater stingray Sacramento splittail, Canthigaster rostrata.
+              Midshipman dartfish Modoc sucker, yellowtail kingfish basslet.
+              Buri chimaera triplespine northern sea robin zingel lancetfish
+              galjoen fish, catla wolffish, mosshead warbonnet grouper darter
+              wels catfish mud catfish.
+            </p>
+            <!-- donation report -->
+            <div class="dontation-report mt-10 grid grid-cols-3 gap-5">
+              <div class="people-helped">
+                <h5 class="font-bold text-title text-lg mb-3">
+                  People We Helped on 2018
+                </h5>
+                <h2 class="text-7xl text-[#5e5c8b] font-bold">200k</h2>
+              </div>
+              <div class="collected-dollars">
+                <h5 class="font-bold text-title text-lg mb-3">
+                  Dollars We Collected
+                </h5>
+                <h2 class="text-7xl text-[#5e5c8b] font-bold">65bil</h2>
+              </div>
+              <div class="closed-projects">
+                <h5 class="font-bold text-title text-lg mb-3">
+                  Closed Projeccts
+                </h5>
+                <h2 class="text-7xl text-[#5e5c8b] font-bold">100+</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
